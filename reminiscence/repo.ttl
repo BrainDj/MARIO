@@ -1,0 +1,359 @@
+<http://www.mario-project.eu/data/694c5fff-6485-4c3c-8f00-ec9152c1dbf6>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Female> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#closeFriendOf>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Giorgia" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Female> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Lodi" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#thumbnail>
+                <http://www.mario-project.eu/data/1df076c2-7a28-46f8-aa68-95ceb4eda64d> .
+
+<http://www.mario-project.eu/data/b24880d3-e0ad-4138-a800-28b003d7be2c>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/1.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/1.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/44b3720b-744d-4e05-8038-f3f113793efd>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#colleagueOf>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Luigi" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Asprino" .
+
+<http://www.mario-project.eu/data/a73b6611-b24c-4976-9960-6a0ed50f7d52>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#brotherOf>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Mario" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Caruso" .
+
+<http://www.mario-project.eu/data/4786cb6c-4bf6-4062-a8a2-4096af820ed7>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/344d3719-da9a-4ec9-91c8-5d46b27710b3> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/44b3720b-744d-4e05-8038-f3f113793efd> .
+
+<http://www.ontologydesignpatterns.org/ont/mario/person.owl#Female>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Sex> .
+
+<http://www.mario-project.eu/data/55cbeda2-a0fe-4346-b15d-97a0c6cf2385>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test5.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test5.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/a7c30b3d-08f6-4ac3-aa84-f4e111451625>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#fatherOf>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Aldo" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Gangemi" .
+
+<http://www.mario-project.eu/data/700d2fb3-6ec2-47bf-ae11-bb54986af26f>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/2b5d0aa1-642b-4d2f-8357-93566bf0e9bf> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/694c5fff-6485-4c3c-8f00-ec9152c1dbf6> .
+
+<http://www.mario-project.eu/data/336259ab-f138-427d-9777-c5e945d56fcd>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test0.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test0.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/f548b7a1-8b5f-4dfb-98f5-e17f3fe2f629>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/344d3719-da9a-4ec9-91c8-5d46b27710b3> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/a7c30b3d-08f6-4ac3-aa84-f4e111451625> .
+
+<http://www.mario-project.eu/data/ab3364aa-543a-40ea-aea6-d7c859470bc6>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/2b5d0aa1-642b-4d2f-8357-93566bf0e9bf> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/a7c30b3d-08f6-4ac3-aa84-f4e111451625> .
+
+<http://www.mario-project.eu/data/27e69ff9-45bc-43e7-8ca9-18b9088b7fa9>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/402c0093-8c21-45f7-b737-cd398954809d> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/44b3720b-744d-4e05-8038-f3f113793efd> .
+
+<http://www.mario-project.eu/data/63e06c62-cd14-4e46-bb0b-5b9267ca2743>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test3.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test3.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/9ca55de8-de32-435d-b701-0fb1846653e8>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/2b5d0aa1-642b-4d2f-8357-93566bf0e9bf> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> .
+
+<http://www.mario-project.eu/data/dc220d00-38f7-4a72-acd4-1fc7fcf2e333>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/t_russo.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/t_russo.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/402c0093-8c21-45f7-b737-cd398954809d>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test5.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test5.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/d8d1b0df-1091-4abe-ae8b-88676f83538e>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/3.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/3.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/ae489912-0414-4ce9-a350-f6b47f078e51>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test2.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test2.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/344d3719-da9a-4ec9-91c8-5d46b27710b3>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/family2.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/family2.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/e02314e5-2d55-429b-b401-6d46be411256>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test4.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test4.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/Roma>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/spatial.owl#City> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "Roma" .
+
+<http://www.mario-project.eu/data/531e671c-5108-4b71-b812-522e070d6fb2>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Female> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Valentina" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Female> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Presutti" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#worksWith>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> .
+
+<http://www.mario-project.eu/data/85614b6d-50fc-4f8d-a83f-42597c185f07>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/ae489912-0414-4ce9-a350-f6b47f078e51> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> .
+
+<http://www.mario-project.eu/data/4cd37dbb-a2e4-42ad-945a-77389f2941f0>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/ae489912-0414-4ce9-a350-f6b47f078e51> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/a7c30b3d-08f6-4ac3-aa84-f4e111451625> .
+
+<http://www.mario-project.eu/data/f0995a23-1a1a-498c-b9a9-c6e264079aa1>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test2.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test2.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/029f0dbf-96be-4969-996c-e7f3fc2a211e>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/402c0093-8c21-45f7-b737-cd398954809d> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> .
+
+<http://www.mario-project.eu/data/16f01597-326b-46d4-b357-04cff971f64d>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test00.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test00.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/5aa79d84-d398-47ab-a0ce-2cde877f6125>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/2.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/2.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/41ed7464-e29e-4ef6-9cd1-293387ce9101>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/4.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/4.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/de6429eb-081d-4811-b83d-20b42c12684d>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/3.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/3.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> , <http://www.ontologydesignpatterns.org/ont/mario/healthrole.owl#Patient> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#birthDate>
+                "1983-06-15T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Alessandro" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasBirthPlace>
+                <http://www.mario-project.eu/data/Roma> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasHometown>
+                <http://www.mario-project.eu/data/Roma> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Russo" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#livesIn>
+                <http://www.mario-project.eu/data/Roma> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#thumbnail>
+                <http://www.mario-project.eu/data/dc220d00-38f7-4a72-acd4-1fc7fcf2e333> .
+
+<http://www.mario-project.eu/data/618265dc-a7c1-4334-ac08-752b7fe777ba>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/ae489912-0414-4ce9-a350-f6b47f078e51> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/44b3720b-744d-4e05-8038-f3f113793efd> .
+
+<http://www.mario-project.eu/data/df955577-47ac-4494-a69b-cbee26685828>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> , <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Person> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#firstName>
+                "Andrea" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#friendOf>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#hasGender>
+                <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/person.owl#lastName>
+                "Nuzzolese" .
+
+<http://www.mario-project.eu/data/0365d80d-75a7-42d5-aa0d-97d8c4db2f75>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/344d3719-da9a-4ec9-91c8-5d46b27710b3> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/c514f562-b94c-47db-a862-9b9fae2bf87f> .
+
+<http://www.mario-project.eu/data/2b5d0aa1-642b-4d2f-8357-93566bf0e9bf>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/test00.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/test00.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/1df076c2-7a28-46f8-aa68-95ceb4eda64d>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/t_lodi.jpg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/jpeg" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/t_lodi.jpg"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.mario-project.eu/data/e6a98d08-2fdb-4c7a-87e8-a290d6464a5b>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/402c0093-8c21-45f7-b737-cd398954809d> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/a7c30b3d-08f6-4ac3-aa84-f4e111451625> .
+
+<http://www.mario-project.eu/data/e9013878-c1cb-4884-89a4-190a380e7a38>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/2.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/2.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+
+<http://www.ontologydesignpatterns.org/ont/mario/person.owl#Male>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/person.owl#Sex> .
+
+<http://www.mario-project.eu/data/73cfc968-3842-4df1-a243-516ff876650a>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#ImageTagging> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#forEntity>
+                <http://www.mario-project.eu/data/344d3719-da9a-4ec9-91c8-5d46b27710b3> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/tagging.owl#taggedPerson>
+                <http://www.mario-project.eu/data/694c5fff-6485-4c3c-8f00-ec9152c1dbf6> .
+
+<http://www.mario-project.eu/data/74ff2e15-b85e-4164-b72f-165252ad1829>
+        a       <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#Image> ;
+        <http://www.ontologydesignpatterns.org/ont/mario/generic.owl#name>
+                "http://localhost:8080/img/4.png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#fileFormat>
+                "image/png" ;
+        <http://www.ontologydesignpatterns.org/ont/mario/multimediacontent.owl#url>
+                "http://localhost:8080/img/4.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> .

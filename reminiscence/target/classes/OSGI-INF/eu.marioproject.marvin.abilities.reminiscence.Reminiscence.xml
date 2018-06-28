@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="eu.marioproject.marvin.abilities.reminiscence.Reminiscence" immediate="true" activate="activate">
+  <implementation class="eu.marioproject.marvin.abilities.reminiscence.Reminiscence"/>
+  <service>
+    <provide interface="eu.marioproject.marvin.abilities.commons.RobotAbility"/>
+  </service>
+  <reference name="config" interface="eu.marioproject.marvin.config.Configuration" field="config"/>
+  <reference name="employmentService" interface="eu.marioproject.marvin.kb.service.EmploymentService" field="employmentService"/>
+  <reference name="eventBus" interface="eu.marioproject.marvin.eventbus.EventBus" field="eventBus"/>
+  <reference name="gui" interface="eu.marioproject.marvin.ui.gui.GraphicalUserInterface" field="gui"/>
+  <reference name="imageService" interface="eu.marioproject.marvin.kb.service.ImageService" field="imageService"/>
+  <reference name="livedPlaceService" interface="eu.marioproject.marvin.kb.service.LivedPlaceService" field="livedPlaceService"/>
+  <reference name="marriageService" interface="eu.marioproject.marvin.kb.service.MarriageService" field="marriageService"/>
+  <reference name="patientService" interface="eu.marioproject.marvin.kb.service.PatientService" field="patientService"/>
+  <reference name="personService" interface="eu.marioproject.marvin.kb.service.PersonService" field="personService"/>
+  <reference name="petOwnershipService" interface="eu.marioproject.marvin.kb.service.PetOwnershipService" field="petOwnershipService"/>
+  <reference name="schoolAttendanceService" interface="eu.marioproject.marvin.kb.service.SchoolAttendanceService" field="schoolAttendanceService"/>
+  <reference name="sentimentAnalysis" interface="eu.marioproject.marvin.sentiment.SentimentAnalysis" field="sentimentAnalysis"/>
+  <reference name="sentimentAnalyzer" interface="eu.marioproject.marvin.sentiment.SentimentAnalysis" field="sentimentAnalyzer"/>
+  <reference name="travelService" interface="eu.marioproject.marvin.kb.service.TravelService" field="travelService"/>
+  <reference name="tts" interface="eu.marioproject.marvin.ui.text2speech.TextToSpeech" field="tts"/>
+  <reference name="userManager" interface="eu.marioproject.marvin.kb.service.UserManager" field="userManager"/>
+</scr:component>

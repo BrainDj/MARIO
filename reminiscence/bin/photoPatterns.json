@@ -1,0 +1,65 @@
+[{
+  "precondition" : "isPatientInPhoto and numPeopleInPhoto gt 1",
+  "question" : {
+    "en" : ["{patientName}, in this photo you are with {peopleNamesWithRelationship}."],
+    "it" : ["{patientName}, in questa foto sei con {peopleNamesWithRelationship}."]
+  },
+  "answerType" : "YES_NO",
+  "expectedAnswers" : ["YES"]
+},
+{
+  "precondition" : "isPatientInPhoto and numPeopleInPhoto gt 1",
+  "question" : {
+    "en" : ["{patientName}, is it {personNameWithRelationship} in this picture with you?"],
+    "it" : ["{patientName}, è {personNameWithRelationship} nella foto con te?"]
+  },
+  "answerType" : "YES_NO",
+  "expectedAnswers" : ["YES"]
+},
+{
+  "precondition" : "isPatientInPhoto and numPeopleInPhoto eq 1",
+  "question" : {
+    "en" : ["{patientName}, who's in this photo with you?"],
+    "it" : ["{patientName}, chi è la persona nella foto con te?"]
+  },
+  "answerType" : "PERSON",
+  "expectedAnswers" : ["{personInPhoto}"],
+  "ifMatchSay" : {
+    "en" : "Yes, that's {personNameWithRelationship}!",
+    "it" : "Sì, è proprio {personNameWithRelationship}!"
+  }
+},
+{
+  "precondition" : "isPatientInPhoto and numPeopleInPhoto gt 1",
+  "question" : {
+    "en" : ["{patientName}, who's in this photo with you?"],
+    "it" : ["{patientName}, chi riconosci nella foto con te?"]
+  },
+  "answerType" : "PERSON",
+  "expectedAnswers" : "{peopleInPhoto}",
+  "ifMatchSay" : {
+    "en" : "Yes, that's {peopleNamesWithRelationship}!",
+    "it" : "Sì, sono proprio {peopleNamesWithRelationship}!"
+  },
+  "ifPartialMatchSay" : {
+    "en" : "Yes, {getNamesAndRelationshipsForPeople(matchedEntities,patient,'en')} {matchedEntities.size() gt 1 ? 'are' : 'is'} in the photo with you, together with {getNamesAndRelationshipsForPeople(missingEntities,patient,'en')}!",
+    "it" : "Sì, {getNamesAndRelationshipsForPeople(matchedEntities,patient,'it')} {matchedEntities.size() gt 1 ? 'sono' : 'è'} nella foto con te, e {missingEntities.size() gt 1 ? 'ci sono' : 'c\\'è'} anche {getNamesAndRelationshipsForPeople(missingEntities,patient,'it')}!"
+  }
+},
+{
+  "precondition" : "isPatientInPhoto and numPeopleInPhoto gt 1",
+  "question" : {
+    "en" : ["In this nice photo you are with {somePeopleNamesWithRelationship}. Who else is in the picture with you?"],
+    "it" : ["In questa bella foto sei con {somePeopleNamesWithRelationship}. Chi altro c'è nella foto con voi?"]
+  },
+  "answerType" : "PERSON",
+  "expectedAnswers" : "{unmentionedPeople(peopleInPhoto, somePeopleInPhoto)}",
+  "ifMatchSay" : {
+    "en" : "Yes {patientName}! You are with {peopleNamesWithRelationship}!",
+    "it" : "Sì {patientName}, nella foto ci sono {peopleNamesWithRelationship}!"
+  },
+  "ifPartialMatchSay" : {
+    "en" : "Yes, sure, {getNamesAndRelationshipsForPeople(matchedEntities,patient,'en')} {matchedEntities.size() gt 1 ? 'are' : 'is'} in the photo with you, together with {getNamesAndRelationshipsForPeople(missingEntities,patient,'en')}!",
+    "it" : "Sì, certo, {getNamesAndRelationshipsForPeople(matchedEntities,patient,'it')} {matchedEntities.size() gt 1 ? 'sono' : 'è'} nella foto con te, e {missingEntities.size() gt 1 ? 'ci sono' : 'c\\'è'} anche {getNamesAndRelationshipsForPeople(missingEntities,patient,'it')}!"
+  }
+}]
